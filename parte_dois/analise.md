@@ -109,11 +109,15 @@ O sistema depende apenas de y[n−1] e x[n], ou seja, de valores presentes e pas
 
 ---
 
-## 4. Atividade 4 – Convolução no MATLAB/Octave
+## 4. Atividade 4 – Convolução 
+
+Atividades 4 e 5 desenvolvidas na plataforma colab:
+https://colab.research.google.com/drive/1QU7XNS6ML30Qs9zVOUs_vZCfU43mCbWq?authuser=1
+
 
 ### 1) Comparação com cálculo manual
 
-A execução do código com a função `conv` produz o mesmo resultado obtido manualmente:
+A execução do código com a função produz o mesmo resultado obtido manualmente:
 
 y[n] = {1, 3, 3, 1}
 
@@ -142,11 +146,6 @@ Esse resultado mostra um comportamento típico de soma acumulativa local, indica
 ---
 
 ## 5. Atividade 5 – Suavização de Sinais
-
-Entrada:
-
-x[n] = {2, 5, 4, 6, 8, 7, 5, 4}  
-h[n] = (1/3){1, 1, 1}
 
 ---
 
